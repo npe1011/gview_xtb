@@ -58,7 +58,7 @@ pyinstaller で exe にするときに `--onefile` にしないとちょっと�
 
 
 ## 8. その他
-上記の gau2xtb.exe ですが、`external='gau2xtb'' をいじればコマンドラインオプションも渡せますので、溶媒やらなにやらを設定することもできます。
+上記の gau2xtb.exe ですが、`external='gau2xtb'` をいじればコマンドラインオプションも渡せますので、溶媒やらなにやらを設定することもできます。
 
 ```
 #p opt=nomicro external='gau2xtb --gbsa CH2Cl2'

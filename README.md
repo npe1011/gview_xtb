@@ -17,7 +17,7 @@ Gaussian は外部のプログラムにエネルギーと勾配、Hessianを計�
 `gau2xtb.py` はそのinterfaceです。このままだとPython環境が必要かつ実行時の指定がめんどくさい（`external=gau2xtb` でうまく走らない）ので、Pyinstaller [https://www.pyinstaller.org/] で実行可能形式にしました。`python -m pip install pyinstaller` したあと、 `pyinstaller gau2xtb.py --onefile` として `gau2xtb.exe` を作成しました。[https://github.com/npe1011/gview_xtb/releases/tag/v1.0] においてあります。
 
 ## 5. 準備
-`gau2xtb.exe` は PATH が通った場所に置く必要があります。また xtb も `xtb` コマンドだけで実行できる必要があるので、 [https://github.com/npe1011/xtb_windows_build] で xtb を入れたフォルダに `xtb.bat` と `gau2.xtb` を置き、そこに PATH を通します。 フォルダ構成は下記のような感じで、この `xtb-6.4.1` フォルダを 環境変数 PATH 追加します。
+`gau2xtb.exe` は PATH が通った場所に置く必要があります。また xtb も `xtb` コマンドだけで実行できる必要があるので、 [https://github.com/npe1011/xtb_windows_build] で xtb を入れたフォルダに `xtb.bat` と `gau2xtb.exe` を置き、そこに PATH を通します。 フォルダ構成は下記のような感じで、この `xtb-6.4.1` フォルダを 環境変数 PATH 追加します。
 ```
 xtb-6.4.1/
   ├ bin/

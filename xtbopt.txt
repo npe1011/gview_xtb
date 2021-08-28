@@ -1,0 +1,4 @@
+### Gaussian Calculation Schemes
+### GaussView 6.0.16
+### 2021/08/28 10:44:06
+xtbopt_=_#p opt=nomicro external='gau2xtb' {write_full_path_for_chk}_Link0__Title_Title Card Required

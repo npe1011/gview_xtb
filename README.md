@@ -23,7 +23,6 @@ xtb-6.4.1/
   ├ bin/
 　├ include/
 　├ share/
-  ├ share/
   ├ lib/
   ├ xtb.bat
 　└ gau2xtb.exe

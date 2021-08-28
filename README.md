@@ -42,6 +42,8 @@ C 0.00 0.00 0.00
 H 1.00 0.00 0.00
 ...
 
+```
+
 これを毎回書いているようでは手間なので、GaussViewに設定を追加します。GaussViewから計算することは普段めったにないかもしれませんが、Calculation Schemesみたいなよく使う設定を用意しておいて、計算を簡単にする機能があります。GaussView の 下図の辺りです。
 
 ![gv](https://user-images.githubusercontent.com/85745743/131203497-1c9c5659-6e09-43b4-98e8-1df6da1b0516.png)
